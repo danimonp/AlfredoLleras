@@ -1,0 +1,112 @@
+.firmaAl{
+	width: 50%;
+}
+
+.mainmsn{
+    display: inline-grid;
+    /*margin:20px;*/
+    background-color: transparent;
+    border:none;
+    width: 21em;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+.card-img-top{
+    margin: 0 auto;
+    width: 50% !important;
+}
+
+.card-img-stars{
+    margin: 0 auto;
+    padding: 5px !important;
+    width: 70% !important;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 75px !important;
+    height: 75px !important;
+}
+
+.carousel-inner {
+    margin-top: 20px;
+    text-align: center ;
+}
+
+.btnlevel{width: 50%;}
+
+.btnlevel:hover{width: 65%;}
+
+.logomainmsn{width: 65%;}
+.contntlgmsn{ text-align: center; }
+.lengmodulo{width: 75%; margin: 0 auto;}
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {
+  .btnlevel {width: 40%;}
+}
+
+Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {
+  .btnlevel {width: 40%;}
+}
+
+
+@media only screen and (min-width: 768px) {
+  .btnlevel {width: 60%;}
+} 
+
+
+@media only screen and (min-width: 992px) {
+  .btnlevel {width: 60%;}
+} 
+
+
+@media only screen and (min-width: 1200px) {
+  .btnlevel {width: 70%;}
+}*/
+
+.menulink{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.2em;
+   	margin: 10px;
+}
+
+.infobra{
+	background: #f9f6e5;
+	border-radius: 20px;
+	padding: 20px;
+	margin-top: 20%;
+}
+
+.txtfont{
+  font-family: 'Mitr', sans-serif;
+  font-weight: 300;
+}
+
+.labelinfo{
+	font-weight: 400;
+}
+
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #ffffff;
+   color: rgb(0,0,0);
+   text-align: center;
+   font-family: 'Mitr', sans-serif;
+   font-weight: 200;
+   font-size: 1rem: 
+}
+
+@media (max-width: 900px) {
+  .firmaAl{
+    width: 30%;
+    margin: 0 auto;
+  }
+}
+
+font-family: 'Mitr', sans-serif;
+font-family: 'Titillium Web', sans-serif

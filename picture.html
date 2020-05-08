@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Obras - Alfredo Lleras - Artista</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="https://fonts.googleapis.com/css?family=Mitr:400,500,600,700|Titillium+Web:400,600,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="assets/styles/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/styles/bootstrap.css">
+		<link rel="stylesheet" href="assets/styles/mainstyle.css">
+  		<script src="assets/scripts/jquery.min.js"></script>
+  		<script src="assets/scripts/d3.js"></script>
+  		<script src="assets/scripts/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<div class="jumbotron text-center">
+  			<nav class="navbar  navbar-light bg-light">
+  				<a class="navbar-brand" href="http://localhost:8888/AlfredoLLeras/"><img style="width:90%;" src="assets/images/logoALl.svg"></a>
+  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    				<span class="navbar-toggler-icon"></span>
+  				</button>
+
+  				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  					<ul class="navbar-nav" style="margin:0 auto;">
+        				<img class="firmaAl" src="assets/images/firmaLleras.svg">
+  					</ul>
+    				<ul class="navbar-nav">
+      					<li class="nav-item active">
+        					<a class="nav-link menulink" data-toggle="modal" data-target="#modalContent" href="" id="Pinturas">Pinturas 
+        						<span class="linkbox">
+        							<img class="img-fluid pointer" src="assets/images/menubox.svg">
+        						</span>
+        					</a>
+      					</li>
+      					<li class="nav-item">
+        					<a class="nav-link menulink" data-toggle="modal" data-target="#modalContent" href="" id="Grabados">Grabados
+								<span class="linkbox">
+        							<img class="img-fluid pointer" src="assets/images/menubox.svg">
+        						</span>
+        					</a>
+      					</li>
+      					<li class="nav-item dropdown">
+        					<a class="nav-link menulink" data-toggle="modal" data-target="#modalContent" href="" id="Dibujos">Dibujos
+								<span class="linkbox">
+        							<img class="img-fluid pointer" src="assets/images/menubox.svg">
+        						</span>
+        					</a>
+      					</li>
+      					<li class="nav-item">
+        					<a class="nav-link menulink" data-toggle="modal" data-target="#modalContent" href="" id="Exposiciones">Exposiciones
+								<span class="linkbox">
+        							<img class="img-fluid pointer" src="assets/images/menubox.svg">
+        						</span>
+        					</a>
+      					</li>
+      					<li class="nav-item">
+        					<a class="nav-link menulink" data-toggle="modal" data-target="#modalContent" href="" id="Contacto">Contacto
+								<span class="linkbox">
+        							<img class="img-fluid pointer" src="assets/images/menubox.svg">
+        						</span>
+        					</a>
+      					</li>
+    				</ul>
+    				<!--form class="form-inline my-2 my-lg-0">
+      					<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Búsqueda">
+      					<button class="btn btn-outline-success my-2 my-sm-0" type="submit"></button>
+    				</form-->
+  				</div>
+			</nav>
+		</div>
+		<div class="container-fluid">
+  			<div class="row">
+    			<div class="col-lg-7 col-md-7 col-xs-12">
+    				<div id="picture" class="picture">
+  						
+  						
+					</div>
+    			</div>
+    			<div class="col-lg-5 col-md-5 col-xs-12">
+					<div id="showInfo" class="text-center d-flex flex-column justify-content-center">
+						<div class="infobra" id="obra">
+							<div class="table-responsive-sm">          
+							  <table class="table table-borderless" id="datatabla">
+							    <tbody class="txtfont">
+							      <tr>
+							        <td class="labelinfo">Colección:</td>
+							        <td>Naturaleza y paisajes</td>
+							      </tr>
+							      <tr>
+							        <td class="labelinfo">Título:</td>
+							        <td>Paisaje</td>
+							      </tr>
+							      <tr>
+							        <td class="labelinfo">Técnica:</td>
+							        <td>Lienzo sobreo Oleo</td>
+							      </tr>
+							      <tr>
+							        <td class="labelinfo">Dimensiones:</td>
+							        <td>40 x 56 cm</td>
+							      </tr>
+							      <tr>
+							        <td class="labelinfo">Nº Impresiones:</td>
+							        <td>20</td>
+							      </tr>
+							      <tr>
+							        <td class="labelinfo">Plancha:</td>
+							        <td>Oleo</td>
+							      </tr>
+							      <tr>
+							        <td class="labelinfo">Papel:</td>
+							        <td>Bristol</td>
+							      </tr>
+							      <tr>
+							        <td class="labelinfo">Año:</td>
+							        <td>1998</td>
+							      </tr>
+
+							    </tbody>
+							  </table>
+  							</div>
+						</div>
+					</div>
+    			</div>
+  			</div>
+
+  			<div class="modal fade" id="modalContent" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+  				<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    				<div class="modal-content">
+    					<div class="modal-body">
+      						<div class="row" id="rowcarousel">
+             	<div id="carouselcont" class="carousel slide active" data-ride="carousel">
+                <div class="carousel-inner" id="incarousel">
+                 <div class="carousel-item active" id="page1">
+                 </div>  
+                </div> 
+             	</div>
+				          <a id="slideprevious" class="left carousel-control-prev" role="button" href="#carouselcont" data-slide="prev">
+				           <img class="carousel-control-prev-icon" src="assets/images/lefticon.svg">
+				         	</a>
+				          <a id="slidenext" class="right carousel-control-next" role="button" href="#carouselcont" data-slide="next">
+				           <img class="carousel-control-prev-icon" src="assets/images/righticon.svg">
+				          </a>
+				        </div>
+      					</div>
+    						</div>
+  						</div>
+						</div>
+
+		</div>
+	</body>
+	<footer class="footer">
+  		<img style="margin-top:1.5em; margin-bottom:1.5em;width:90%;" src="assets/images/footerline.svg">
+  		<p>Todas las imagenes y contenidos del sitio estan registrados bajo derechos de autor - Todos los derechos reservados  - Alfredo Lleras 2020</p><br>	
+  	</footer>
+  	<script src="assets/scripts/getobject.js"></script>
+
+</html>

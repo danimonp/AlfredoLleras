@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>lefticon</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_5" data-name="Layer 5">
+      <path d="M39.87,17.65a1.35,1.35,0,0,0-1.91,0l-14.9,14.9a1.35,1.35,0,0,0,0,1.91L38,49.35a1.35,1.35,0,1,0,1.91-1.91L25.94,33.5,39.87,19.56A1.35,1.35,0,0,0,39.87,17.65Z"/>
+      <rect x="0.5" y="0.5" width="63" height="63" rx="12" ry="12" style="fill: none;stroke: #000;stroke-miterlimit: 10"/>
+    </g>
+  </g>
+</svg>
