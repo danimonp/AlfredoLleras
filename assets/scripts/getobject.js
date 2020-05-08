@@ -22,7 +22,7 @@ $('[data-toggle="tooltip"]').tooltip();
 
 function loadPic(idpic) {
     console.log('cargar obra', idpic);
-    window.location.replace("http://localhost:8888/AlfredoLLeras/picture.html?="+idpic);
+    window.location.replace("picture.html?="+idpic);
 }
 
 function locked(level) {
